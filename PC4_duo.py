@@ -11,8 +11,8 @@ import streamlit.components.v1 as components
 
 ### Opción 1: Menú vertical
 with st.sidebar:
-    opciones = option_menu("Selecciona una sección: ",['Presentación', 'Experiencia', 'Gráficos'] , 
-        icons=['1-circle','2-circle', '3-circle'], menu_icon="filetype-py", default_index=0)
+    opciones = option_menu("Bienvenidx a nuestro blog: ",['Nosotras', 'Experiencia', 'Resultados'] , 
+        icons=['1-circle','2-circle', '3-circle'], menu_icon="bluesky", default_index=0)
 
 ### Opción 2: Menú horizontal
 #opciones_2 = option_menu(
