@@ -12,7 +12,14 @@ import streamlit.components.v1 as components
 ### Opción 1: Menú vertical
 with st.sidebar:
     opciones = option_menu("Selecciona una sección: ",['Presentación', 'Experiencia', 'Gráficos'] , 
-        icons=['1-circle','2-circle', '3-circle'], menu_icon="filetype-py", default_index=0)
+        icons=['0-circle','1-circle', '2-circle'], menu_icon="filetype-py", default_index=0)
+
+### Opción 2: Menú horizontal
+opciones_2 = option_menu(
+    menu_title="Selecciona una sección: ", 
+    options=['Presentación', 'Experiencia', 'Gráficos'], 
+    icons=['0-circle','1-circle', '2-circle'], 
+    menu_icon="cast", default_index=0, orientation="horizontal")
 
 if opciones == 'Presentación':
     st.markdown("<h1 style='text-align: center; font-size: 50 px; color: black'>Nombre del blog</h1>", unsafe_allow_html=True)
