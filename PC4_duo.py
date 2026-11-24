@@ -121,10 +121,10 @@ else:
     
     # Aquí todos los integrantes deben poner sus 3 gráficos y su mapa en la lista 
     # y aumentar la estructura condicional como sea necesaria
-    graficos = ['Gráfico_1', 'Gráfico_2', 'Mapa_1'] 
+    graficos = ['Gráfico de barras', 'Histograma', 'Piechart', 'Wordcloud', 'Mapas'] 
     grafico_seleccionado = st.selectbox('Selecciona un gráfico', graficos)
     
-    if grafico_seleccionado == 'Gráfico_1':
+    if grafico_seleccionado == 'Gráfico de barras':
         st.subheader("📊 Gráfico 1: Lenguas aisladas")
         texto_5 = """
         Interpretación del Gráfico 1
@@ -145,7 +145,7 @@ else:
         with col2:
             st.image("barras_milagros.png", width=800)
             
-    elif grafico_seleccionado == 'Gráfico_2':
+    elif grafico_seleccionado == 'Histograma':
         st.subheader("📊 Gráfico 2: Familias lingüísticas")
         texto_6 = """
         Interpretación del Gráfico 2
@@ -156,7 +156,7 @@ else:
         with col2:
             st.image("histogramas_anapaula.png", width=800)
 
-    elif grafico_seleccionado == 'Gráfico_2':
+    elif grafico_seleccionado == 'Piechart':
         st.subheader("📊 Gráfico 2: Familias lingüísticas")
         texto_7 = """
         Interpretación del Gráfico 2
@@ -166,7 +166,18 @@ else:
         col1, col2, col3 = st.columns([1, 7, 1])
         with col2:
             st.image("wordcloud_anapaula.png", width=800)
+   
+    elif grafico_seleccionado == 'Wordcloud':
+        st.subheader("📊 Gráfico 2: Familias lingüísticas")
+        texto_7 = """
+        Interpretación del Gráfico 2
+        """
+        st.markdown(f"<div style='text-align: justify; font-size: 18px;'>{texto_7}</div>", unsafe_allow_html=True)
     
+        col1, col2, col3 = st.columns([1, 7, 1])
+        with col2:
+            st.image("wordcloud_anapaula.png", width=800)
+            
     else:
         st.subheader("🗺️ Mapa 1: Distribución geográfica")
         texto_8 = """
