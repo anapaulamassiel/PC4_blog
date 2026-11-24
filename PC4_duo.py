@@ -22,12 +22,12 @@ with st.sidebar:
 #    menu_icon="cast", default_index=0, orientation="horizontal")
 
 if opciones == 'Nosotras':
-    st.markdown("<h1 style='text-align: center; font-size: 50 px; color: black'>Nombre del blog</h1>", unsafe_allow_html=True)
+    st.markdown("<h1 style='text-align: center; font-size: 50 px; color: black'>M&A Blog</h1>", unsafe_allow_html=True)
 
     # Alumno a
     col1, col2 = st.columns(2)
     
-    col1.image("imagen_anapaula.jpg", caption='Anapaula', width=300)
+    col1.image("imagen_anapaula.jpg", caption='Anapaula', width=150)
 
     texto = """
     Hola! Me llamo Anapaula, soy estudiante de Comunicación para el desarrollo de quinto ciclo. 
