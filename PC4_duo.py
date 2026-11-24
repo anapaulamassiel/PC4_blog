@@ -133,17 +133,17 @@ else:
 
         col1, col2, col3 = st.columns([1, 7, 1])
         with col2:
-                st.image("barras_anapaula.png", width=800)
+            st.image("barras_anapaula.png", width=800)
 
         st.subheader("📊 Gráfico 1: Lenguas aisladas")
-            texto_6 = """
-            Interpretación del Gráfico 1
-            """
-            st.markdown(f"<div style='text-align: justify; font-size: 18px;'>{texto_6}</div>", unsafe_allow_html=True)
+        texto_6 = """
+        Interpretación del Gráfico 1
+        """
+        st.markdown(f"<div style='text-align: justify; font-size: 18px;'>{texto_6}</div>", unsafe_allow_html=True)
     
-            col1, col2, col3 = st.columns([1, 7, 1])
-            with col2:
-                    st.image("barras_milagros.png", width=800)
+        col1, col2, col3 = st.columns([1, 7, 1])
+        with col2:
+            st.image("barras_milagros.png", width=800)
             
     elif grafico_seleccionado == 'Gráfico_2':
         st.subheader("📊 Gráfico 2: Familias lingüísticas")
