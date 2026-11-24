@@ -1,0 +1,415 @@
+<!DOCTYPE html>
+<html>
+<head>
+    
+    <meta http-equiv="content-type" content="text/html; charset=UTF-8" />
+    <script src="https://cdn.jsdelivr.net/npm/leaflet@1.9.3/dist/leaflet.js"></script>
+    <script src="https://code.jquery.com/jquery-3.7.1.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/Leaflet.awesome-markers/2.0.2/leaflet.awesome-markers.js"></script>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/leaflet@1.9.3/dist/leaflet.css"/>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/css/bootstrap.min.css"/>
+    <link rel="stylesheet" href="https://netdna.bootstrapcdn.com/bootstrap/3.0.0/css/bootstrap-glyphicons.css"/>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@6.2.0/css/all.min.css"/>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/Leaflet.awesome-markers/2.0.2/leaflet.awesome-markers.css"/>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/python-visualization/folium/folium/templates/leaflet.awesome.rotate.min.css"/>
+    
+            <meta name="viewport" content="width=device-width,
+                initial-scale=1.0, maximum-scale=1.0, user-scalable=no" />
+            <style>
+                #map_89423963bd83e97669e2d047b087312f {
+                    position: relative;
+                    width: 100.0%;
+                    height: 100.0%;
+                    left: 0.0%;
+                    top: 0.0%;
+                }
+                .leaflet-container { font-size: 1rem; }
+            </style>
+
+            <style>html, body {
+                width: 100%;
+                height: 100%;
+                margin: 0;
+                padding: 0;
+            }
+            </style>
+
+            <style>#map {
+                position:absolute;
+                top:0;
+                bottom:0;
+                right:0;
+                left:0;
+                }
+            </style>
+
+            <script>
+                L_NO_TOUCH = false;
+                L_DISABLE_3D = false;
+            </script>
+
+        
+</head>
+<body>
+    
+    
+            <div class="folium-map" id="map_89423963bd83e97669e2d047b087312f" ></div>
+        
+</body>
+<script>
+    
+    
+            var map_89423963bd83e97669e2d047b087312f = L.map(
+                "map_89423963bd83e97669e2d047b087312f",
+                {
+                    center: [35.0, -50.0],
+                    crs: L.CRS.EPSG3857,
+                    ...{
+  "zoom": 3,
+  "zoomControl": true,
+  "preferCanvas": false,
+}
+
+                }
+            );
+            L.control.scale().addTo(map_89423963bd83e97669e2d047b087312f);
+
+            
+
+        
+    
+            var tile_layer_0d22186caf80ac2d2f4a7602b3c0cec6 = L.tileLayer(
+                "https://tile.openstreetmap.org/{z}/{x}/{y}.png",
+                {
+  "minZoom": 0,
+  "maxZoom": 18,
+  "maxNativeZoom": 18,
+  "noWrap": false,
+  "attribution": "\u0026copy; \u003ca href=\"https://www.openstreetmap.org/copyright\"\u003eOpenStreetMap contributors\u003c/a\u003e | Datos bajo licencia \u003ca href=\"https://opendatacommons.org/licenses/odbl/\"\u003eODbL\u003c/a\u003e",
+  "subdomains": "abc",
+  "detectRetina": false,
+  "tms": false,
+  "opacity": 1,
+  "referrerPolicy": "strict-origin",
+}
+
+            );
+        
+    
+            tile_layer_0d22186caf80ac2d2f4a7602b3c0cec6.addTo(map_89423963bd83e97669e2d047b087312f);
+        
+    
+            var marker_a722ddf187cd3c0fba71e398e6510de2 = L.marker(
+                [51.90342126010158, -0.1853161793812747],
+                {
+}
+            ).addTo(map_89423963bd83e97669e2d047b087312f);
+        
+    
+            var icon_8a40ac57d2f07047689232ecd88f5406 = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "green",
+  "iconColor": "white",
+  "icon": "heart",
+  "prefix": "glyphicon",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+        
+    
+        var popup_8a84ab496f8c33ced5c42b6a76f8bba9 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_f64019cb7f422d61149709c99fe9b080 = $(`<div id="html_f64019cb7f422d61149709c99fe9b080" style="width: 100.0%; height: 100.0%;"><b>Mercedes AMG Petronas</b></div>`)[0];
+                popup_8a84ab496f8c33ced5c42b6a76f8bba9.setContent(html_f64019cb7f422d61149709c99fe9b080);
+            
+        
+
+        marker_a722ddf187cd3c0fba71e398e6510de2.bindPopup(popup_8a84ab496f8c33ced5c42b6a76f8bba9)
+        ;
+
+        
+    
+    
+            marker_a722ddf187cd3c0fba71e398e6510de2.bindTooltip(
+                `<div>
+                     Lugar de nacimiento: Lewis HAMILTON
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+                marker_a722ddf187cd3c0fba71e398e6510de2.setIcon(icon_8a40ac57d2f07047689232ecd88f5406);
+            
+    
+            var marker_6f5b23fcf796011a1d1712440192d07e = L.marker(
+                [20.674382253492254, -103.3479057867886],
+                {
+}
+            ).addTo(map_89423963bd83e97669e2d047b087312f);
+        
+    
+            var icon_dc653c06337e0b5f4386a32f20c50039 = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "pink",
+  "iconColor": "white",
+  "icon": "heart",
+  "prefix": "glyphicon",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+        
+    
+        var popup_a7cca1a5bde86d3f5b318198c2b17b1b = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_7a23a80cb9df9cb8ca752702568d6cc7 = $(`<div id="html_7a23a80cb9df9cb8ca752702568d6cc7" style="width: 100.0%; height: 100.0%;"><b>Sahara Force India</b></div>`)[0];
+                popup_a7cca1a5bde86d3f5b318198c2b17b1b.setContent(html_7a23a80cb9df9cb8ca752702568d6cc7);
+            
+        
+
+        marker_6f5b23fcf796011a1d1712440192d07e.bindPopup(popup_a7cca1a5bde86d3f5b318198c2b17b1b)
+        ;
+
+        
+    
+    
+            marker_6f5b23fcf796011a1d1712440192d07e.bindTooltip(
+                `<div>
+                     Lugar de nacimiento: Sergio PEREZ
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+                marker_6f5b23fcf796011a1d1712440192d07e.setIcon(icon_dc653c06337e0b5f4386a32f20c50039);
+            
+    
+            tile_layer_0d22186caf80ac2d2f4a7602b3c0cec6.addTo(map_89423963bd83e97669e2d047b087312f);
+        
+    
+                marker_a722ddf187cd3c0fba71e398e6510de2.setIcon(icon_8a40ac57d2f07047689232ecd88f5406);
+            
+    
+                marker_6f5b23fcf796011a1d1712440192d07e.setIcon(icon_dc653c06337e0b5f4386a32f20c50039);
+            
+    
+            var marker_89e44d412d158bfc695b4384290355dd = L.marker(
+                [51.90342126010158, -0.1853161793812747],
+                {
+}
+            ).addTo(map_89423963bd83e97669e2d047b087312f);
+        
+    
+            var icon_44d4584192087fb5ecf2ed2a04249677 = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "green",
+  "iconColor": "white",
+  "icon": "car",
+  "prefix": "fa",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+        
+    
+        var popup_5e640d5dd5901d127951b76cebe0c846 = L.popup({
+  "maxWidth": 200,
+});
+
+        
+            
+                var html_69cc147bd97ed8c4ae97c8fb73646184 = $(`<div id="html_69cc147bd97ed8c4ae97c8fb73646184" style="width: 100.0%; height: 100.0%;">   <b>Piloto:</b> Lewis HAMILTON <br>   <b>Escudería:</b> Mercedes AMG Petronas <br>   <b>Puntaje total:</b> 380 <br>   <img src="https://racingnewsworldwide.com/wp-content/uploads/2016/03/Lewis-Hamilton-in-his-2016-racesuit.jpg" width="150" height="180"> </div>`)[0];
+                popup_5e640d5dd5901d127951b76cebe0c846.setContent(html_69cc147bd97ed8c4ae97c8fb73646184);
+            
+        
+
+        marker_89e44d412d158bfc695b4384290355dd.bindPopup(popup_5e640d5dd5901d127951b76cebe0c846)
+        ;
+
+        
+    
+    
+            marker_89e44d412d158bfc695b4384290355dd.bindTooltip(
+                `<div>
+                     Lugar de nacimiento: Lewis HAMILTON
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+                marker_89e44d412d158bfc695b4384290355dd.setIcon(icon_44d4584192087fb5ecf2ed2a04249677);
+            
+    
+            var marker_59693aa372b4538657d3fbd422c61757 = L.marker(
+                [20.674382253492254, -103.3479057867886],
+                {
+}
+            ).addTo(map_89423963bd83e97669e2d047b087312f);
+        
+    
+            var icon_41837faf77148af0aca18ab452028d15 = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "pink",
+  "iconColor": "white",
+  "icon": "car",
+  "prefix": "fa",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+        
+    
+        var popup_8c26e71966846576504dffc5dcd04a73 = L.popup({
+  "maxWidth": 200,
+});
+
+        
+            
+                var html_5a908f5a9cf6d365767e2bfa9a264e5c = $(`<div id="html_5a908f5a9cf6d365767e2bfa9a264e5c" style="width: 100.0%; height: 100.0%;">   <b>Piloto:</b> Sergio PEREZ <br>   <b>Escudería:</b> Sahara Force India <br>   <b>Puntaje total:</b> 101 <br>   <img src="https://i.pinimg.com/474x/b8/1e/94/b81e944ee2268a8631035677586cf2a0.jpg" width="150" height="180"> </div>`)[0];
+                popup_8c26e71966846576504dffc5dcd04a73.setContent(html_5a908f5a9cf6d365767e2bfa9a264e5c);
+            
+        
+
+        marker_59693aa372b4538657d3fbd422c61757.bindPopup(popup_8c26e71966846576504dffc5dcd04a73)
+        ;
+
+        
+    
+    
+            marker_59693aa372b4538657d3fbd422c61757.bindTooltip(
+                `<div>
+                     Lugar de nacimiento: Sergio PEREZ
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+                marker_59693aa372b4538657d3fbd422c61757.setIcon(icon_41837faf77148af0aca18ab452028d15);
+            
+    
+            tile_layer_0d22186caf80ac2d2f4a7602b3c0cec6.addTo(map_89423963bd83e97669e2d047b087312f);
+        
+    
+                marker_a722ddf187cd3c0fba71e398e6510de2.setIcon(icon_8a40ac57d2f07047689232ecd88f5406);
+            
+    
+                marker_6f5b23fcf796011a1d1712440192d07e.setIcon(icon_dc653c06337e0b5f4386a32f20c50039);
+            
+    
+                marker_89e44d412d158bfc695b4384290355dd.setIcon(icon_44d4584192087fb5ecf2ed2a04249677);
+            
+    
+                marker_59693aa372b4538657d3fbd422c61757.setIcon(icon_41837faf77148af0aca18ab452028d15);
+            
+    
+            var marker_588bc55428e0e5735b9fd1ddbaedbc54 = L.marker(
+                [51.90342126010158, -0.1853161793812747],
+                {
+}
+            ).addTo(map_89423963bd83e97669e2d047b087312f);
+        
+    
+            var icon_1d9941d69cbeed9e0d5482e9ca856628 = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "green",
+  "iconColor": "white",
+  "icon": "car",
+  "prefix": "fa",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+        
+    
+        var popup_3ceea29df561b176a9a551e7105f2343 = L.popup({
+  "maxWidth": 200,
+});
+
+        
+            
+                var html_e5f8db4d4a9ba3f4cff9955b45a7736b = $(`<div id="html_e5f8db4d4a9ba3f4cff9955b45a7736b" style="width: 100.0%; height: 100.0%;">   <b>Piloto:</b> Lewis HAMILTON <br>   <b>Escudería:</b> Mercedes AMG Petronas <br>   <b>Puntaje total:</b> 380 <br>   <img src="https://racingnewsworldwide.com/wp-content/uploads/2016/03/Lewis-Hamilton-in-his-2016-racesuit.jpg" width="150" height="180"> </div>`)[0];
+                popup_3ceea29df561b176a9a551e7105f2343.setContent(html_e5f8db4d4a9ba3f4cff9955b45a7736b);
+            
+        
+
+        marker_588bc55428e0e5735b9fd1ddbaedbc54.bindPopup(popup_3ceea29df561b176a9a551e7105f2343)
+        ;
+
+        
+    
+    
+            marker_588bc55428e0e5735b9fd1ddbaedbc54.bindTooltip(
+                `<div>
+                     Lugar de nacimiento: Lewis HAMILTON
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+                marker_588bc55428e0e5735b9fd1ddbaedbc54.setIcon(icon_1d9941d69cbeed9e0d5482e9ca856628);
+            
+    
+            var marker_9862acb1a50f254e1ea6012e53772863 = L.marker(
+                [20.674382253492254, -103.3479057867886],
+                {
+}
+            ).addTo(map_89423963bd83e97669e2d047b087312f);
+        
+    
+            var icon_1552f3ace0e5fe84d0fcb1e42f61d653 = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "pink",
+  "iconColor": "white",
+  "icon": "car",
+  "prefix": "fa",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+        
+    
+        var popup_2e05ffe040c15d3eea6e7cc7278cded9 = L.popup({
+  "maxWidth": 200,
+});
+
+        
+            
+                var html_ecd58cebaf1ff7f7593ba5da727b06c1 = $(`<div id="html_ecd58cebaf1ff7f7593ba5da727b06c1" style="width: 100.0%; height: 100.0%;">   <b>Piloto:</b> Sergio PEREZ <br>   <b>Escudería:</b> Sahara Force India <br>   <b>Puntaje total:</b> 101 <br>   <img src="https://i.pinimg.com/474x/b8/1e/94/b81e944ee2268a8631035677586cf2a0.jpg" width="150" height="180"> </div>`)[0];
+                popup_2e05ffe040c15d3eea6e7cc7278cded9.setContent(html_ecd58cebaf1ff7f7593ba5da727b06c1);
+            
+        
+
+        marker_9862acb1a50f254e1ea6012e53772863.bindPopup(popup_2e05ffe040c15d3eea6e7cc7278cded9)
+        ;
+
+        
+    
+    
+            marker_9862acb1a50f254e1ea6012e53772863.bindTooltip(
+                `<div>
+                     Lugar de nacimiento: Sergio PEREZ
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+                marker_9862acb1a50f254e1ea6012e53772863.setIcon(icon_1552f3ace0e5fe84d0fcb1e42f61d653);
+            
+</script>
+</html>
