@@ -36,7 +36,7 @@ if opciones == 'Nosotras':
     Mi autora latinoamericana favorita es Isabel Allende, también me gusta mucho el pollo a la brasa y la Inca Kola. 
     Al terminar mi carrera me gustaría trabajar en proyectos sociales y políticas de desarrollo.
     """
-    col2.markdown(f"<div style='text-align: right; font-size: 15px;'>{texto}</div>", unsafe_allow_html=True)
+    col2.markdown(f"<div style='text-align: justify right; font-size: 15px;'>{texto}</div>", unsafe_allow_html=True)
 
     # Alumno b
     col1, col2 = st.columns(2)
