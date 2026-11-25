@@ -76,7 +76,7 @@ elif  opciones == 'Experiencia':
 
     with col2:  
         st.link_button("🎥 Semejanzas y diferencias entre Strings y Listas",
-                       "https://drive.google.com/file/d/1REvRXSu3GuGD73w8j44135MkRiezd0gP/view?usp=drive_link",
+                       "https://drive.google.com/file/d/1tuVgGtLmWQU7VS8Q1x0DpRuB_lWEySDm/view?usp=drive_link",
                        use_container_width=True
             )
     
@@ -87,7 +87,7 @@ elif  opciones == 'Experiencia':
 
     with col2:  
         st.link_button("🎥 Semejanzas y diferencias entre los bucles for y while",
-                       "https://drive.google.com/file/d/1REvRXSu3GuGD73w8j44135MkRiezd0gP/view?usp=drive_link",
+                       "https://drive.google.com/file/d/1ebACS9uGAjeuB1MKWAnG2i0-_y7FmCt4/view?usp=drive_link",
                        use_container_width=True
             )
 
