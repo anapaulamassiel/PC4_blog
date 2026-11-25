@@ -70,7 +70,8 @@ elif  opciones == 'Experiencia':
     st.markdown(f"<div style='text-align: justify; font-size: 18px;'>{texto_3}</div>", unsafe_allow_html=True)
     
     # Formato Google Drive
-    st.subheader("🎥 Mi primer video de programación: nivel principiante
+    st.subheader("🎥 Mi primer video de programación: nivel principiante")
+   
     col1, col2, col3 = st.columns([1, 2, 1])
 
     with col2:  
