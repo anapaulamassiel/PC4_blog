@@ -243,7 +243,7 @@ else:
     
         components.html(html_content,height=600)
 
-    else:
+        
         st.subheader("🗺️ Mapa de Milagros: Distribución geográfica")
         texto_8 = """
         Interpretación del mapa
