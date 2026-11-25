@@ -27,7 +27,7 @@ if opciones == 'Nosotras':
     # Alumno a
     col1, col2 = st.columns(2)
     
-    col1.image("imagen_anapaula.jpg", caption='@massiel_anapaula | a20246587@pucp.edu.pe', width=300)
+    col1.image("imagen_anapaula.jpg", caption='@massiel_anapaula | a20246587@pucp.edu.pe', width=250)
 
     texto = """
     Hola! Me llamo Anapaula, soy estudiante de Comunicación para el desarrollo de quinto ciclo. 
