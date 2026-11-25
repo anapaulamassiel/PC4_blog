@@ -60,32 +60,32 @@ elif  opciones == 'Experiencia':
 
     # Alumno a
     texto_3 = """
-    Aquí escribe tu experiencia aprendiendo a programar. 
-    ¿Cómo te sentiste al principio? 
-    ¿Qué te ha enseñado la programación? 
-    ¿Qué te gusta de programar? 
-    ¿Qué te gustaría hacer con la programación en el futuro?
+    Esta es la primera experiencia que tengo con realizar programación. 
+    Al principio lo veía como algo muy complicado y no estaba tan segura de mi en poder programar, menos una pagina web. 
+    No tenía ni idea de cómo se hacía. La programación me ha enseñado a entender que todo resultado requiere de un proceso, una secuencia de pasos a los que se les debe prestar detalle.
+    También a romper ese mito de que solo las ingenieras o carreras afines pueden aplicarla a sus áreas de trabajo. 
+    Lo que más me está gustando, aunque a la vez lo siento agotador, es poder concretar la propuesta de proyecto que tenía en mente a través de una página web.
+    En el futuro, me gustaría elaborar una plataforma web que sirva como repositorio/archivo digital de libros, cuentos, novelas de autoras latinoamericanas. 
     """
     st.markdown(f"<div style='text-align: justify; font-size: 18px;'>{texto_3}</div>", unsafe_allow_html=True)
     
     # Formato Google Drive
-    st.subheader("🎥 Título apropiado video 2")
-
+    st.subheader("🎥 Mi primer video de programación: nivel principiante
     col1, col2, col3 = st.columns([1, 2, 1])
 
     with col2:  
-        st.link_button("🎥 Texto del botón",
+        st.link_button("🎥 Semejanzas y diferencias entre Strings y Listas",
                        "https://drive.google.com/file/d/1REvRXSu3GuGD73w8j44135MkRiezd0gP/view?usp=drive_link",
                        use_container_width=True
             )
     
     # Formato Google Drive
-    st.subheader("🎥 Título apropiado video 2")
+    st.subheader("🎥 Mi segundo video de programación")
 
     col1, col2, col3 = st.columns([1, 2, 1])
 
     with col2:  
-        st.link_button("🎥 Texto del botón",
+        st.link_button("🎥 Semejanzas y diferencias entre los bucles for y while",
                        "https://drive.google.com/file/d/1REvRXSu3GuGD73w8j44135MkRiezd0gP/view?usp=drive_link",
                        use_container_width=True
             )
